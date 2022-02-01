@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    src: url(https://fonts.google.com/specimen/Roboto+Slab?query=roboto+slab#standard-styles);
+}
+
+body{
+    background-color: rgb(191, 189, 189);
+}
+
+p{
+    font-family: 'Roboto Slab', serif;
+    padding-top: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+p span{
+    display: block;
+}
+
+h1 h2 h3 h4 h5 h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.ItemBlanco{
+    color: white;
+}
+
+.imagenes-articulos{
+    width: 300px;
+    height: 300px;
+}
+
+.border{
+    border: 1px black solid;
+}
+
+.subtitulos{
+    text-align: center;
+}
+
+.fondo{
+    background-color: goldenrod;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contenedores__provedores{
+    height: 400px;
+    width: 400px;
+    margin: 5px;
+}
