@@ -46,20 +46,57 @@
     </header>
 
     <main>
+        <div class="container fondo">
+            <h2 class="subtitulos">Contactos:</h2>
+            <section class="contacto_flex">
+                <p class="texto">Celular: 11 1111-1111
+                    <span>Horario: Mañana de 9:00 a 13:00 y Tarde de 16:00 a 20:00</span>
+                    <span>Ubicacion: EE.UU, Manhattan</span></p>
 
+                <iframe class="mapa"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96708.15276722025!2d-74.03927157068742!3d40.75917036082614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C%20Nueva%20York%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1640210232649!5m2!1ses!2sar"
+                    style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+        </div>
+
+        <div class="container fondo">
+            <h2 class="subtitulos">Formulario: </h2>
+            <div class="mb-3 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="staticEmail">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Nombre y apellido</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputPassword">
+                </div>
+            </div>
+            <textarea name="consulta" class="consulta" cols="30" rows="10">Ingrese su consulta</textarea>
+            <input type="submit" value="Enviar" class="boton">
+        </div>
     </main>
 
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top fondoRojo">
         <div class="col-md-4 d-flex align-items-center">
-          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">          </a>
-          <span class="footertext">© 2021 Company, Emanuel Leiva</span>
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"> </a>
+            <span class="footertext">© 2021 Company, Emanuel Leiva</span>
         </div>
-    
+
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/"><img src="../Imagenes/facebook.png" class="logo" alt=""></a></li>
-          <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/"><img src="../Imagenes/instagram.png" class="logo" alt=""></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/"><img src="../Imagenes/facebook.png"
+                        class="logo" alt=""></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/"><img
+                        src="../Imagenes/instagram.png" class="logo" alt=""></a></li>
         </ul>
-      </footer>
+    </footer>
 
     <script src="../js/bootstrap.js"></script>
 </body>
