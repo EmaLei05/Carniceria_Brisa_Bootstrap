@@ -8,10 +8,9 @@ body{
     background-color: rgb(191, 189, 189);
 }
 
-p{
+.texto{
     font-family: 'Roboto Slab', serif;
     padding-top: 5px;
-    text-align: center;
     font-weight: bold;
 }
 
@@ -43,6 +42,7 @@ h1 h2 h3 h4 h5 h6{
 
 .subtitulos{
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .footertext{
@@ -62,8 +62,63 @@ h1 h2 h3 h4 h5 h6{
     margin-bottom: 5px;
 }
 
+/*Index*/
+
+.textoIndex{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+/*Provedores*/
+
 .contenedores__provedores{
     height: 400px;
     width: 400px;
     margin: 5px;
+}
+
+/*Nosotros*/
+
+.gridNosotros{
+    display: grid;
+    grid-template-areas: 
+    "nosotros"
+    "productos"
+    "calidad";
+}
+
+.Historia{
+    grid-area: nosotros;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: space-between;
+}
+.Productos{
+    grid-area: productos;
+    background-color: goldenrod;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Calidad{
+    grid-area: calidad;
+    background-color: goldenrod;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_nosotros{
+    width: 50%;
+    height: 500px;
+}
+
+/*Reecetas*/
+
+.recetas_img{
+    width: 1000px;
+    height: 500px;
 }
