@@ -4,6 +4,10 @@
     src: url(https://fonts.google.com/specimen/Roboto+Slab?query=roboto+slab#standard-styles);
 }
 
+div article:hover{
+    border: 1px solid black;
+}
+
 body{
     background-color: rgb(191, 189, 189);
 }
